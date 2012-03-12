@@ -27,7 +27,6 @@ Gem::Specification.new do |s|
      "app/controllers/admin/configurables_controller.rb",
      "app/models/configurable.rb",
      "app/views/admin/configurables/show.html.erb",
-     "config/routes.rb",
      "configurable_engine.gemspec",
      "lib/configurable_engine.rb",
      "lib/configurable_engine/configurables_controller.rb",

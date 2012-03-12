@@ -32,9 +32,10 @@ Gem::Specification.new do |s|
      "lib/configurable_engine.rb",
      "lib/configurable_engine/configurables_controller.rb",
      "lib/configurable_engine/engine.rb",
-     "lib/generators/configurable_engine/install_generator.rb",
-     "lib/generators/configurable_engine/templates/configurable.yml",
-     "lib/generators/configurable_engine/templates/migration.rb"
+     "lib/generators/configurable_engine/install/install_generator.rb",
+     "lib/generators/configurable_engine/install/templates/configurable.yml",
+     "lib/generators/configurable_engine/install/templates/migration.rb",
+     "lib/generators/configurable_engine/web_interface/web_interface_generator.rb"
   ]
   s.homepage = %q{http://github.com/paulca/configurable_engine}
   s.licenses = [%q{MIT}]
